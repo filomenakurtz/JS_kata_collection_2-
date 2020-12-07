@@ -30,7 +30,20 @@ answer = multiply(3, 5);
 console.log(answer);
 
 // power/exponentiation
+function power (x,n){
 
+    let result = 1;
+    let counter=0;
+    while (counter <n){
+        result =multiply (result, x);
+        counter = counter + 1;
+
+}
+return result;
+}
+
+answer= power(2,8)
+console.log(answer);
 
 // Factorial
 
